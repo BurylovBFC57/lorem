@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border: 1px solid gray;
+    padding: 40px;
+    background-color: white;
+}
+
+section ul{
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+    display: flex;
+    background-color: #F4F4F4;
+}
+
+section ul li{
+    display: flex;
+    padding: 15px;
+    border-right: 1px solid gray;
+}
+
+section ul li:last-child{
+    border-right: 1px solid #dcdcdc;
+}
+
+section div ul li{
+    border-right: 1px solid white;
+}
+
+.p1 ul li{
+    border-right: 2px solid #dcdcdc;
+    background-color: #F4F4F4;
+}
+
+.p1 ul{
+    height: 450px;
+    display: flex;
+}
+
+.p1 ul li:first-child{
+    justify-self: start;
+    height: 430px;
+}
+
+.p1 ul li:last-child{
+    justify-self: end;
+    width: 400px;
+}
+
+.p1 ul li:firt-child{
+    justify-self: start;
+    width: 400px;
+}
